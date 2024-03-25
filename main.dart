@@ -81,6 +81,7 @@ class MyApp extends StatelessWidget {
                       width: 350,
                       child: TextField(
                         controller: passwordConroller,
+                        obscureText: true,
                         textAlign: TextAlign.center,
                         decoration: const InputDecoration(
                           filled: true,
